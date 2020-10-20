@@ -9,8 +9,11 @@ Para acessar o virgo basta usar o seguinte comando:
 A sua chave pública está localizada provavelmente na sua pasta home (`~/`) dentro da pasta `.ssh`(do seu computador pessoal)
 
   ~/
+  
   |____~/.ssh/
+  
   |____~/.ssh/id_rsa
+  
   |____~/.ssh/id_rsa.pub
   
 Para facilitar a sua vida, você pode criar (caso ainda não tenha) um arquivo de configuração do `ssh`. Com isso, o seu computador saberá as configurações corretas para se conectar em servidores. O arquivo "config" não tem nenhuma extensão. Crie um arquivo sem nenhum conteúdo chamado "config" e o salve dentro da pasta .ssh (~/.ssh/). Você pode criar esse arquivo usando por exemplo o Sublime, Vim, Nano, ...
