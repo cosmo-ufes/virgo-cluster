@@ -16,7 +16,7 @@ A sua chave pública está localizada provavelmente na sua pasta home (`~/`) den
 Para facilitar a sua vida, você pode criar (caso ainda não tenha) um arquivo de configuração do `ssh`. Com isso, o seu computador saberá as configurações corretas para se conectar em servidores. O arquivo "config" não tem nenhuma extensão. Crie um arquivo sem nenhum conteúdo chamado "config" e o salve dentro da pasta .ssh (~/.ssh/). Você pode criar esse arquivo usando por exemplo o Sublime, Vim, Nano, ...
 Vamos agora editar esse arquivo. Abra ele com o seu editor de texto favorito e adicione as seguintes linhas:
 
-  Host <nome desejado>
+    Host <nome desejado>
     HostName     172.20.76.99
     Port         22
     User         <usuário>
