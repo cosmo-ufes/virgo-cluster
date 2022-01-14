@@ -1,4 +1,4 @@
-Para acessar o virgo basta usar o seguinte comando:
+Para acessar o virgo basta usar o seguinte comando (caso você utilize o Windows, veja o final desta página):
 
     ssh -J <login único UFES>@sshgate.ufes.br:22222 <nome-do-usuario-no-virgo>@172.20.76.99 -p 22
  
@@ -76,3 +76,15 @@ Uma das aplicações do comando `LocalForward` é que você pode acessar (caso t
     localhost:8889
 
   Pronto! Você pode acessar o Jupyter Lab no seu computador, porém o kernel está no virgo.
+    
+### Acessando o cluster usando o Windows:
+    
+Por algum motivo desconhecido, acessar o virgo via PowerShell (ou vscode) por exemplo não funciona de forma usual. Uma alternativa é instalar a VPN da UFES no Windows. Veja [aqui](https://npd.ufes.br/sites/npd.ufes.br/files/field/anexo/conexao_vpn-rede-ufes_-_sti.pdf) como se conectar a rede da UFES. Uma vez dentro da UFES, as confirações de acesso no arquivo de configuração do virgo fica sem a opção `ProxyJump`:
+    
+    Host virgo
+    HostName     172.20.76.99
+    Port         22
+    User         renan
+    LocalForward 8889 localhost:8888
+    
+Pronto! Agora você pode se conectar ao virgo usando o aplicativo da VPN da UFES.
