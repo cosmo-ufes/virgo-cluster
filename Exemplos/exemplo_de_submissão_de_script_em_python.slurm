@@ -4,7 +4,7 @@
 
 #SBATCH --job-name="Python"
 #SBATCH --mail-type=END
-#SBATCH --mail-user=fisica.renan@gmail.com
+#SBATCH --mail-user=seu@email.com
 #SBATCH --exclude=m[88]
 #SBATCH --output=python.out
 
