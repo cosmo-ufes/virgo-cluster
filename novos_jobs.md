@@ -31,7 +31,7 @@ Para criar um job é necessário escrever um arquivo de submissão (*.slurm).
 		#!/bin/bash
 		#SBATCH --job-name=teste                    # Nome da tarefa
 		#SBATCH --mail-type=END                     # Enviará um e-mail quando a tarefa 											  acabar
-		#SBATCH --mail-user=fisica.renan@gmail.com  # Endereço de e-mail
+		#SBATCH --mail-user=seu@email.com           # Endereço de e-mail
 		
 		python -c 'print("Hello World!")'
 
