@@ -4,7 +4,7 @@
 
 #SBATCH --job-name="Mathematica Parallel"
 #SBATCH --mail-type=END
-#SBATCH --mail-user=fisica.renan@gmail.com
+#SBATCH --mail-user=seu@email.com
 #SBATCH --exclude=m[87]
 #SBATCH --cpus-per-task=16
 #SBATCH --output=mathematica_parallel.out
