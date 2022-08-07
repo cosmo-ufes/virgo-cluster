@@ -21,7 +21,7 @@
 
 #SBATCH --job-name="Meu Script"
 #SBATCH --mail-type=END
-#SBATCH --mail-user=fisica.renan@gmail.com
+#SBATCH --mail-user=seu@email.com
 #SBATCH --exclude=m[87]
 #SBATCH --cpus-per-task=10
 #SBATCH --output=terminal_output.out
